@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sender2>
+	<datagrid rowcount="1000">
+		<row>
+			<id>1</id>
+			<name>布局</name>
+		</row>
+		<row>
+			<id>101</id>
+			<pid>1</pid>
+			<isleaf>1</isleaf>
+			<name>anchor布局</name>
+		</row>
+		<row>
+			<id>102</id>
+			<pid>1</pid>
+			<isleaf>1</isleaf>
+			<name>GridView布局</name>
+		</row>
+		<row>
+			<id>103</id>
+			<pid>1</pid>
+			<isleaf>1</isleaf>
+			<name>Vbox布局</name>
+		</row>
+		<row>
+			<id>104</id>
+			<pid>1</pid>
+			<isleaf>1</isleaf>
+			<name>Split布局</name>
+		</row>
+		<row>
+			<id>2</id>
+			<name>导航</name>
+		</row>
+		<row>
+			<id>3</id>
+			<name>数据组件</name>
+		</row>
+		<row>
+			<id>4</id>
+			<name>窗口和表单</name>
+		</row>
+		<row>
+			<id>5</id>
+			<name>综合实例</name>
+		</row>
+		<row>
+			<id>501</id>
+			<pid>5</pid>
+			<isleaf>0</isleaf>
+			<name>一个增加、修改、删除的例子</name>
+			<url>exp/exp1/index.html</url>
+		</row>
+		
+	</datagrid>
+</sender2>

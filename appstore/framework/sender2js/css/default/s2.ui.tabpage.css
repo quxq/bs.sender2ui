@@ -1,0 +1,64 @@
+.tabpage-style1{
+	position: relative;
+}
+.tabpage-style1 #header{
+	
+	border-bottom:solid 1px #efefef;
+	background-color: #fff;
+	overflow:hidden;
+	height:40px;
+}
+.tabpage-style1 #header dl{
+	position: absolute;
+	padding:0;margin:0;
+}
+.tabpage-style1 #header dt{
+	
+	float:left;		
+	overflow:hidden;
+	
+}
+.tabpage-style1 #header dt a{
+	margin: 6px 0 0 3px;
+	display:block;
+	height:100%;
+	font-size:14px;
+	color:#777;
+	background: #efefef;
+	font-family: "microsoft yahei",simhei; 
+	padding:0 10px;
+	line-height:32px;
+	border: 1px solid #efefef;
+	border-radius: 3px 3px  0 0px;
+	margin-bottom:4px;
+	TEXT-DECORATION: none;
+    cursor: pointer;
+    _float:left;
+	
+}
+.tabpage-style1 #header dt .hover{
+	
+	font-size:14px;
+	font-family: "microsoft yahei",simhei; 
+	color:#444;
+	line-height:33px;
+	TEXT-DECORATION: none;
+    cursor: pointer;
+	
+/*	border-bottom: 4px solid #777;*/
+	_float:left;
+}
+.tabpage-style1 #header dt .active{
+	margin: 6px 0 0 3px;
+	font-size:14px;
+	font-family: "microsoft yahei",simhei; 
+	color:#555;
+	background: #fff;
+	font-weight: bold;
+	line-height: 33px;
+	TEXT-DECORATION: none;
+    cursor: pointer;
+	border: 1px solid #efefef;
+	border-bottom: 4px solid #fff;
+	_float:left;
+}

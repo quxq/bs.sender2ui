@@ -1,0 +1,92 @@
+
+ .s2datagrid{
+    border:solid 1px #ccc;
+    width:auto;
+    
+  }
+   .s2datagrid:after{
+   content: " ";
+   display: block;   
+   clear: both;
+  }
+  .s2datagrid table td{
+    height:25px;
+    overflow: hidden;
+  }
+  .s2datagrid table td div{
+    height:25px;
+    overflow: hidden;
+    line-height:25px;
+    font-size:12px;
+    padding:0 3px;
+  }
+  .s2datagrid table td{
+    border:solid 1px #efe;
+    border-top:none;
+    border-left:none;
+    cursor: pointer;
+  }
+  .s2datagrid table{
+    border-collapse: collapse;
+    border:none;
+    border-top:none;
+    border-left:none;
+  }
+  
+  .s2datagrid table .active{
+    background:#f5f5f5;
+  }
+  
+  .s2datagrid #grid_right #body{
+    border:none;
+    overflow: auto;
+  }
+  .s2datagrid #grid_left #body tbody{
+    background:#fff;
+  }
+  .s2datagrid  #grid_right #body tbody{
+    background:#fff;
+  }
+  .s2datagrid #grid_right #header,.s2datagrid #grid_left #header{
+    border:none;
+    overflow: hidden;
+  }
+  .s2datagrid #grid_right #header thead{
+     background-color: #F2F2F2;
+
+  }
+  
+   .s2datagrid #grid_right #header thead td{
+    border-width: 0 1px 1px 0;
+    border-style: solid;
+    border-color:#ccc;
+    color: #444;
+    background: #efefef;
+/*      background: -webkit-linear-gradient(top,#ffffff 0,#F2F2F2 100%);
+  background: -moz-linear-gradient(top,#ffffff 0,#F2F2F2 100%);
+  background: -o-linear-gradient(top,#ffffff 0,#F2F2F2 100%);
+  background: linear-gradient(to bottom,#ffffff 0,#F2F2F2 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff,endColorstr=#F2F2F2,GradientType=0);*/
+  }
+  
+  .s2datagrid #grid_left #header thead{
+   background-color: #F2F2F2;
+ 
+  }
+  .s2datagrid #grid_left #header thead td{
+    border-width: 0 1px 1px 0;
+    border-style: dotted;
+    border-color:#444;
+    color: #444;
+/*     background: -webkit-linear-gradient(top,#ffffff 0,#F2F2F2 100%);
+  background: -moz-linear-gradient(top,#ffffff 0,#F2F2F2 100%);
+  background: -o-linear-gradient(top,#ffffff 0,#F2F2F2 100%);
+  background: linear-gradient(to bottom,#ffffff 0,#F2F2F2 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff,endColorstr=#F2F2F2,GradientType=0);*/
+  }
+  .s2datagrid #grid_left #body{
+    border:none;
+    overflow: hidden;
+  }

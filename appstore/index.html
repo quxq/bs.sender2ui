@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+		<script src="/js/loader.js"></script>
+	</head>
+	<body class="hold-transition skin-blue sidebar-mini fixed" style="display:none;padding:10px;">
+	<div s2-comp="s2.core.CustomComp" s2-url="index.js" s2-comp-name="page">
+       
+				<div s2-comp="s2.ui.Tab">
+					<div  s2-title="GIS导航" s2-active="true">
+				      	
+				   </div> 
+				   <div s2-title="我的身份">
+					   
+					   
+				   </div>
+                   <div s2-title="需要使用的工具">
+					   
+					   
+				   </div>
+                   <div s2-title="工具">
+					   
+					   
+				   </div>
+				</div>
+				
+			
+    </div>	
+        
+        
+        
+	<script>
+      
+	    var isShowWindow = false;
+        //var gui = require('nw.gui');
+        var win = nw.Window.get();
+        
+       
+        //添加一个菜单
+
+        var menu = new nw.Menu();
+        var menu_disp= new nw.MenuItem({ label: '显示窗口' ,click:function(e){
+            if(isShowWindow){
+                 win.hide();
+                 isShowWindow=false;
+                 menu_disp.label="显示窗口";
+            }
+            else
+            {
+                win.show();
+                isShowWindow=true;
+                menu_disp.label="隐藏窗口";
+            }
+           
+        }})
+        var menu_rest= new nw.MenuItem({ label: '重启服务' ,click:function(e){
+            
+           
+        }})
+        var menu_open= new nw.MenuItem({ label: '打开主平台' ,click:function(e){
+            
+           
+        }})
+        
+        menu.append(menu_disp);
+        menu.append(menu_rest);
+        menu.append(menu_open);
+        
+        
+        var tray = new nw.Tray({icon: 'icon.png',alticon:'icon.png',menu:menu});
+        tray.tooltip = '屈向前，已登陆。运行时间：1小时';
+
+        
+       
+       global.tray = window.tray = tray;
+       win.on('close', function(event) {
+        if (global.tray && event != 'quit') {
+            win.hide();
+        } else {
+            win.close(true);
+            nw.App.quit();
+        }
+      });
+
+      nw.App.on('reopen', function(cmd) {
+         win.show();
+      });  
+
+      win.hide();
+      
+     
+//var express = require('express');
+//var port = process.env.port||3000;
+//var app = new express();
+//
+//app.set('views','./views');
+//app.set('view engine','jade');
+//app.use(express.static('./sender2js'));
+//app.listen(port);
+//
+//console.log('start...')
+//
+//app.get('/',function(req,res){
+//    res.render('details',{
+//        title:'详情页'
+//    })
+//})
+
+		</script>
+	</body>
+</html>

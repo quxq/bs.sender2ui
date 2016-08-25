@@ -1,0 +1,19 @@
+.s2-ui-panel{
+	border:1px solid #efefef;
+	border-radius: 3px;
+}
+.s2-ui-panel>.header{
+	border-top:2px solid cornflowerblue;
+	border-bottom: 1px solid #ececec;
+/*	background:#efefef;*/
+	line-height: 40px;
+	padding-left:7px;
+	border-radius: 3px 3px 0 0;
+	font-size:14px;
+	min-width: 150px;
+	
+}
+.s2-ui-panel>.header>#toolbox{
+	float:right;
+	
+}

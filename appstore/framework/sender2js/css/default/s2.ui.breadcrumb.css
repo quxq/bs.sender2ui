@@ -1,0 +1,27 @@
+.s2-ui-breadcrumb {
+/*    padding: 8px 15px;*/
+/*    margin-bottom: 20px;*/
+    list-style: none;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    padding-left:7px;
+}
+.s2-ui-breadcrumb>li{
+    line-height: 35px;
+    display: inline-block;
+}
+.s2-ui-breadcrumb>.active{
+    color:#777;
+     font-size: 14px;
+}
+.s2-ui-breadcrumb>li>a{
+	color: #337ab7;
+    text-decoration: none;
+    font-size: 14px;
+}
+.s2-ui-breadcrumb>li+li:before {
+    padding: 0 5px;
+    color: #ccc;
+    
+    content: "/\00a0";
+}

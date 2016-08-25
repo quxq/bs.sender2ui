@@ -1,0 +1,26 @@
+{
+  "name": "s2-simple",
+  "main": "index.html",
+  "single-instance":false,
+  "nodejs":true,
+  "node-remote":["http://my.com","http://localhost:3000"],
+  "window": {
+    "title": "sender2ui实例",
+    "toolbar": true, 
+    "width": 800, 
+    "height": 600,
+    "resizable":true,
+    "show_in_taskbar":true,
+    "frame":false,
+    "icon": "icon.png"
+  },
+
+  "webkit":{
+
+  "plugin":true
+
+  },
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}

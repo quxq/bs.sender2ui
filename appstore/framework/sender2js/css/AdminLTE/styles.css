@@ -1,0 +1,95 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
+}
+/* TOOLTIPS*/
+/* TREE */
+table.s2ui-treeview .indent20 {
+	padding-left: 20px;
+}
+
+table.s2ui-treeview .indent8 {
+	padding-left: 8px;
+}
+
+table.s2ui-treeview .indent12 {
+	padding-left: 12px;
+}
+
+table.s2ui-treeview .icon {
+	margin-right: 2px;
+	width: 9px;
+}
+
+.cbx-unchecked, 
+.cbx-halfchecked {
+	width: 13px;
+}
+
+/* TABLES */
+.table-bordered {
+  border: 1px solid #EBEBEB;
+}
+.table-bordered > thead > tr > th,
+.table-bordered > thead > tr > td {
+  background-color: #F5F5F6;
+  border-bottom-width: 1px;
+}
+.table-bordered > thead > tr > th,
+.table-bordered > tbody > tr > th,
+.table-bordered > tfoot > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > tbody > tr > td,
+.table-bordered > tfoot > tr > td {
+  border: 1px solid #e7e7e7;
+}
+.table > thead > tr > th {
+  border-bottom: 1px solid #DDDDDD;
+  vertical-align: bottom;
+}
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+  border-top: 1px solid #e7eaec;
+  line-height: 1.42857;
+  padding: 8px;
+  vertical-align: top;
+}
+
+/** FROM **/
+.tooltip {
+	z-index:20000;
+}
+.tooltip-inner {
+	white-space: nowrap;
+}
+.form-error {
+	border: 1px solid #ed5565;
+}
+.s2ui-combox {
+	max-height:280px; 
+	overflow:auto;
+	border:1px solid #ccc;
+	background:white;
+	z-index:9999;
+	display:none;
+}
+.s2ui-combox .list-group-item{
+	border-right:none;
+	border-left:none;
+} 
+.s2ui-combox .list-group-item:last-child {
+    margin-bottom: 0;
+    border-bottom:none;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.s2ui-combox .list-group-item:first-child {
+    margin-bottom: 0;
+    border-bottom:none;
+    border-top:none;
+  	border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}

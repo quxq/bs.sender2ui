@@ -1,0 +1,23 @@
+<div s2-comp="s2.core.CustomComp" s2-url="exp/exp1/index.js" s2-comp-name="page" style="height:100%">
+	
+		   <div s2-comp="s2.ui.TabPage" s2-border="true">
+			    <div s2-title="数据表格［增、删、改、查］" s2-comp="s2.ui.Vbox" s2-rows="35,2,*,47">
+					<div s2-comp="s2.ui.Toolbar" id="toolbar"></div>
+					<form id="findform">
+						
+					</form>
+					<div s2-comp="s2.ui.DataGrid" s2-form="#findform" id="datagrid" s2-hmargin="7" s2-title="Datagrid测试" s2-fix="true"  s2-url="leftmenu.xml">
+							<p s2-script="true" style="display:none">
+											 self.header=["id","pid","name","worker"];
+											 self.headerText=["编号","父编号","名称","操作"];
+											 self.headerWidth=[100,100,100,150];
+							</p>
+					</div>
+					<div s2-comp="s2.ui.PerPageBar" s2-bind="#datagrid"></div>
+				</div>
+				<div s2-title="代码剖析">
+					
+				</div>
+		   </div>
+	 
+</div>

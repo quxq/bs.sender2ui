@@ -1,0 +1,86 @@
+.s2treeview{
+	
+}
+
+.s2treeview .icon{
+	width:16px;
+	height:18px;	
+	margin-top:3px;
+	background: url("images/tree_icons.png");
+	background-repeat: no-repeat;
+    
+}
+
+.s2treeview .checkbox{
+	display: block;
+	width: 16px;
+	height:16px;
+	background-position: -208px -18px;
+}
+
+.s2treeview  .checked{
+	display: block;
+	width: 16px;
+	height:16px;
+	background-position: -224px -18px;
+}
+
+.s2treeview  .halfchecked{
+	display: block;
+	width: 16px;
+	height:16px;
+	background-position: -240px -18px;
+}
+
+.s2treeview td{
+	line-height:22px;
+	white-space: nowrap;
+}
+.s2treeview .active{
+	background:#f5f5f5;
+};
+.s2treeview .t-point{
+	cursor: pointer;
+}
+.s2treeview .t-open{	
+	white-space: nowrap;
+	overflow: hidden;
+	word-break:break-all;
+}
+.s2treeview .t-open .t-point{
+	background-position: -18px 0;
+}
+.s2treeview .t-close .t-point{
+	background-position: -0 0;
+}
+
+.s2treeview .t-open .forder{
+	background-position: -224px 0;
+}
+.s2treeview .t-close .forder{
+	background-position: -208px 0;
+}
+.s2treeview .space{
+	background-position: -195px 0;
+	background-image: none;
+}
+.s2treeview .forder{
+	background-position: -208px 0;
+	cursor: pointer;
+	line-height:22px;
+}
+.s2treeview .leaf{
+	background-position: -240px 0;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.s2treeview .node{
+	font-size:12px;	
+	margin-left:3px;
+	color:#444;	
+	text-decoration:none;
+	line-height:22px;
+	white-space: nowrap;
+	word-break: keep-all;
+}

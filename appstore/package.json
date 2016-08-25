@@ -1,0 +1,23 @@
+{
+  "name": "test",
+  "main": "index.html",
+  "nodejs":true,
+  "node-main":"main.js",
+  "single-instance":false,
+  "window": {
+    "title": "云隆应用市场",
+    "toolbar": true, 
+    "width": 800, 
+    "height": 600,
+    "resizable":true,
+    "show_in_taskbar":true,
+    "frame":true,
+    "icon": "icon.png"
+  },
+  "webkit":{
+     "plugin":true
+  },
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}

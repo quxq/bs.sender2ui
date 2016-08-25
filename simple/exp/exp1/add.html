@@ -1,0 +1,28 @@
+<div s2-comp="s2.core.CustomComp" s2-url="exp/exp1/add.js" s2-comp-name="page" style="width:500px;">
+	  
+		  <form s2-comp="s2.ui.Form">
+			  <div class="form-group">
+				   <label>用户</label>
+			       <input type="text" name="user" s2-vali="empty" class="textfield"></input>
+				   
+			  </div>
+			 <div class="form-group">
+			  <label>密码</label>
+			  <div s2-name="password" s2-type="s2.type.TextField"></div>
+			 </div>
+			  <div class="form-group">
+			     <div s2-name="datatimespick" s2-type="s2.type.DateTimePicker"></div>
+			  </div>
+			<div class="checkbox"  s2-vali="notchecked">
+			  <label><input type="checkbox" name="cbox" ></input>checkbox1</label>
+			  <label><input type="checkbox" name="cbox"></input>checkbox2</label>
+			  <label><input type="checkbox" name="cbox"></input>checkbox3</label>
+			  <label><input type="checkbox" name="cbox"></input>checkbox4</label>
+			</div>
+			
+			<div style="text-align:center">
+			<input type="submit" value="提交" class="btn btn-success"></input><input type="reset" style="margin-left:10px;" value="重置" class="btn btn-info"></input>
+			</div>
+		  </form>
+	
+</div>
